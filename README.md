@@ -13,7 +13,7 @@ All of these are in the DisplayPlayerAids directory, which should be located in 
 1) Batch file:
 This is called from within your Front End with the two parameters: "Filename Of the Game" "Path to the directory that the DisplayPlayerAids directory sits in"
 
-How you do this will vary based on the Front End. For RetroFe edit the mame.conf file (found in the launchers directory) so it reads:
+How you do this will vary based on the Front End. For RetroFe (which is what the CoinOps builds use along with a number of other nice looking builds) edit the mame.conf file (found in the launchers directory) so it reads:
 executable = %RETROFE_PATH%\DisplayPlayerAids\DisplayPlayerAids.bat
 arguments = "%ITEM_NAME%" "%RETROFE_PATH%"
 
